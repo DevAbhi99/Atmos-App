@@ -1,0 +1,11 @@
+@import "~@fontsource/poppins/index.css";
+body {
+background-color: #D4EBF8;
+font-family:"Poppins";
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

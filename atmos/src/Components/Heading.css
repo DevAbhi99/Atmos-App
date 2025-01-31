@@ -1,0 +1,60 @@
+.app-title{
+color: #0A3981;
+margin-left:50px;
+}
+.heading-main{
+    display:flex;
+  margin-left:100px;
+}
+.title-options{
+    margin-left:220px;
+    padding-top: 35px;
+    display:flex;
+    flex-direction: row;
+}
+
+#aq{
+    color:black;
+    font-size: 25px;
+    background-color: #D4EBF8;
+    border: none;
+    margin-top: 10px;
+}
+
+#aq:hover{
+    color:#0A3981;
+    font-size: 30px;
+    background-color: #D4EBF8;
+    border: none;
+    margin-top: 10px;
+}
+
+#weather{
+    color:black;
+    font-size: 25px;
+    background-color: #D4EBF8;
+    border: none;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#weather:hover{
+    color:#0A3981;
+    font-size: 30px;
+    background-color: #D4EBF8;
+    border: none;
+    margin-left: 40px;
+    margin-top: 10px;
+};
+    
+#bikestations{
+    color:black;
+    font-size: 25px;
+    background-color: #D4EBF8;
+    border: none;
+    margin-left: 40px;
+}
+#title_btn{
+    border:none;
+    background-color: #D4EBF8;
+    font-size: 25px;
+}
