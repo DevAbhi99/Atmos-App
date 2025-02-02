@@ -92,7 +92,7 @@ function Main() {
       <Heading />
       <div className="display_main">
         <div className="main_display_map">
-          <LoadScript googleMapsApiKey="AIzaSyBo-mXQolZZnHe2jxg1FDm8m-ViYP9_AaY">
+          <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
             <GoogleMap mapContainerStyle={mapContainerStyle} center={location} zoom={12}>
               <Marker position={location} />
             </GoogleMap>
