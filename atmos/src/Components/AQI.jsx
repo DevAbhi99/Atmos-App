@@ -15,7 +15,8 @@ const defaultCenter = {
   lng: -122.4194,
 };
 
-const API_KEY = "502894e3704721dd1fe07dd0767f88f6"; 
+const API_KEY = process.env.REACT_APP_WEATHER_API; 
+const google_api=process.env.REACT_APP_GOOGLE_API;
 
 function AQI() {
   const [location, setLocation] = useState(defaultCenter); 
@@ -76,7 +77,7 @@ function AQI() {
 
       <div className="display_main">
         <div className="display_map">
-          <LoadScript googleMapsApiKey="AIzaSyBo-mXQolZZnHe2jxg1FDm8m-ViYP9_AaY">
+          <LoadScript googleMapsApiKey={google_api}>
             <GoogleMap mapContainerStyle={mapContainerStyle} center={location} zoom={12}>
               {aqData && (
                 <>

@@ -1,0 +1,39 @@
+.signup_main{
+    display: flex;
+    flex-direction: column;
+    border:1px solid green;
+    height:400px;
+    width:380px;
+    margin-left:550px;
+    margin-top:150px;
+    padding-left: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.login_extra_row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border:1px solid green;
+    width: 300px;
+    padding-left: 20px;
+    background-color: white;
+}
+#user_logo{
+ font-size: 20px;
+    color:green;
+}
+
+#user_txt{
+    width: 250px;
+    padding-left: 10px;
+    background-color: white;
+    border:none;
+}
+#user_txt:focus{
+    border:none;
+    outline:none;
+    box-shadow: none;
+}

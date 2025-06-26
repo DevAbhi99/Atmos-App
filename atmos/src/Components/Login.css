@@ -1,0 +1,89 @@
+.login_main{
+    display: flex;
+    flex-direction: column;
+    border:1px solid green;
+    height:300px;
+    width:380px;
+    margin-left:550px;
+    margin-top:150px;
+    padding-left: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.login_heading{
+    font-size: 20px;
+    color:green;
+}
+
+.login_first_row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border:1px solid green;
+    width: 300px;
+    padding-left: 20px;
+    background-color: white;
+}
+#email_logo{
+    font-size: 20px;
+    color:green;
+}
+#email_txt{
+    width: 250px;
+    padding-left: 10px;
+    background-color: white;
+    border:none;
+}
+#email_txt:focus{
+    border:none;
+    outline:none;
+    box-shadow: none;
+}
+
+.login_second_row{
+     display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border:1px solid green;
+    width: 300px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+#password_logo{
+    font-size: 20px;
+    color:green;
+}
+#password_txt{
+    width: 250px;
+    padding-left: 10px;
+    background-color: white;
+    border:none;
+}
+#password_txt:focus{
+    border:none;
+    outline:none;
+    box-shadow: none;
+}
+#loginbtn{
+    margin-top: 20px;
+    width:200px;
+    height:30px;
+    margin-left: 55px;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius:10px;
+}
+
+.notsignedup{
+    margin-top: 20px;
+}
+#signuplink{
+    border:none;
+    color: green;
+    font-size: 16px;
+    background-color: aqua;
+}
