@@ -5,9 +5,9 @@ conditions in any location across Dublin.Visualized weather data, AQI, and nearb
 Maps interface, providing an intuitive and user-friendly experience.
 
 <h2>Technologies Used</h2>
-<li>
-  <ul>React.js</ul>
-  <ul>Express.js</ul>
-  <ul>MySQL</ul>
-  <ul>Firebase</ul>
-</li>
+<ul>
+  <li>React.js</li>
+  <li>Express.js</li>
+  <li>MySQL</li>
+  <li>Firebase</li>
+</ul>
